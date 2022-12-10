@@ -6,6 +6,13 @@
 * ? Write a function addCountry() that adds a European country to the countries object (inside of the continents object, inside of the countries object). The country you add should be an object with the key as name of the 'country' and the value as an object with the keys of "capital" and "population" and their respective values.
  */
 
+/**
+  * ? Başvuranlar dizisine bir başvuran eklemek için addAplicant() işlevini yazın. Eklediğiniz başvuranlar, bir ad anahtarına ve istediğiniz değere sahip bir nesne olmalıdır.
+
+* ? diller nesnesine bir dil ekleyen bir addLanguage() işlevi yazın. Eklediğiniz dil nesnesi, dilin adını içeren bir anahtara ve "merhaba" anahtarına sahip başka bir nesnenin değerine ve eklediğiniz dilde "merhaba" nasıl yazarsanız yazın değerine sahip olmalıdır.
+
+* ? Ülkeler nesnesine bir Avrupa ülkesi ekleyen bir addCountry() işlevi yazın (kıtalar nesnesinin içinde, ülkeler nesnesinin içinde). Eklediğiniz ülke, 'ülke' adı anahtarına sahip bir nesne ve değeri, "başkent" ve "nüfus" anahtarları ve bunların ilgili değerlerine sahip bir nesne olarak olmalıdır.
+  */
 import { applicantList } from './data.js'
 import { addApplicant, addLanguage, addCountry } from './functions.js'
 

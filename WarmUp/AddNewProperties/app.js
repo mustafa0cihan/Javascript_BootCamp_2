@@ -4,6 +4,14 @@
  * * The key 'sale' equals the calculated sale price based on the original price and the discount. 
  * * The key 'total' equals the computed total based on stock, the original price and the discount. 
  * ! You have to use Object Destructuring on the objects in the sales array and discountRatio.
+ * 
+ * * ? Biri ürün dizisi, diğeri indirim nesnesi olmak üzere parametre olarak iki argüman alan ve yeni üç anahtarlı (indirim, satış ve toplam) bir dizi döndüren updateSales() adlı bir işlev yazın.
+  * * 'İndirim' tuşu, stok miktarına bağlı olarak indirim nesnesi değerinden birine eşittir.
+  * * 'İndirim' anahtarı, orijinal fiyat ve indirime göre hesaplanan satış fiyatına eşittir.
+  * * 'Toplam' anahtarı, stok, orijinal fiyat ve indirim temelinde hesaplanan toplama eşittir.
+  * ! Satış dizisindeki ve discountRatio'daki nesneler üzerinde Nesne Yıkımı kullanmanız gerekir.
+  * 
+  * 
  * If stock is 7<= stock <12 min
  *             3<= stock <7  med
  *                 stock <3  max
